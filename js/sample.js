@@ -13,7 +13,8 @@ function evalNumber(){
     }
 }
 
-function getTime(){
-var today = New Date();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+function eliminate(){
+    let selectedElement = document.getElementById("delete")
+    console.log(selectedElement)
+    selectedElement.innerText = "things are changing but not deleting!";
 }
