@@ -18,3 +18,11 @@ function eliminate(){
     console.log(selectedElement)
     selectedElement.innerText = "things are changing but not deleting!";
 }
+
+function time(){
+    var findtime = new Date().getMinutes();
+    let selectedElement = document.getElementById("time");
+    console.log(selectedElement);
+    selectedElement.innerText = findtime;
+}
+
