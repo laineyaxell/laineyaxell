@@ -14,9 +14,8 @@ function evalNumber(){
 }
 
 function eliminate(){
-    let selectedElement = document.getElementById("delete")
-    console.log(selectedElement)
-    selectedElement.innerText = "things are changing but not deleting!";
+    var a = document.getElementById("delete");
+        a.style.display = "none"
 }
 
 function time(){
