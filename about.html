@@ -23,7 +23,7 @@
 --->
 <body>
     <link rel="stylesheet" href="css/styles.css">
-    <nav class ="navbar navbar-expand-sm bg-light navbar-light">
+    <nav class ="navbar navbar-expand-sm bg-transparent navbar-light" id="nav">
         <ul class="nav nav-pills">
             
             <li class="nav-item">
@@ -61,13 +61,25 @@
     </nav>
 --->
     <h1 id="delete">About me!</h1>
-    <h3 class="d-none d-md-block"> I am 3rd year Global Studies major and Visual Arts minor at UChicago.</h3>
+    <p id="abt" class="d-none d-md-block"> I am 3rd year Visual Arts minor at the University of Chicago. I am 20 years old and am from Minnesota. Some hobbies of mine include tennis, baking, travelling and wine night.</p>
+    <p class="d-none d-md-block">To contact:</p>
+    <p class="d-none d-md-block" style="text-indent: 40px">   Email: llaxell@uchicago.edu</p>
+    <p class="tab" style="text-indent: 40px">   Phone: 763-592-9563</p>
+ 
+    </p>
     </div>
+
     <script src="js/sample.js"></script>
     <div class="container mt-5">
+        <p class="d-none d-md-block"> Random cool buttons for class:</p>
         <button type="button" class="btn btn-primary" onclick="howdy('Lainey')">Trying</button>
         <button type="button" class="btn btn-primary" onclick="evalNumber()">Evaluate Number</button>
         <button type="button" class="btn btn-primary" onclick="eliminate()">Delete</button>
+        <button type="button" class="btn btn-primary" onclick="time()">Time</button>
+    </div>
+
+    <div class="container mt-5">
+        <div id="time"></div>
     </div>
 
 </body>

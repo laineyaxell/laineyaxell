@@ -1,6 +1,8 @@
-h1 {color:black;}
+h1 {color:black; font-family: cursive;}
 #welcome {color:blue;}
-nav {background-color:lightgoldenrodyellow;}
-.active {background-color: lightgoldenrodyellow;}
+.active {background-color: white;}
 body{background-color: lightgoldenrodyellow;}
 body{font-family: Georgia, 'Times New Roman', Times, serif;}
+nav{background-color: white;}
+
+abt {font-size: small;}
