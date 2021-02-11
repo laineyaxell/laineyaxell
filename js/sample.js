@@ -25,3 +25,15 @@ function time(){
     selectedElement.innerText = findtime;
 }
 
+
+function changeArray(newArray){
+    
+    let selectedElement = document.getElementById("fruit");
+    selectedElement.innerText = newArray.sort();
+    console.log(selectedElement);    
+}
+
+function deleteFruit(){
+    var b = document.getElementById("byefruit");
+        b.style.display = "none"
+}
