@@ -26,10 +26,10 @@ function time(){
 }
 
 
-function changeArray(newArray){
-    
+function changeArray(newArray){  
     let selectedElement = document.getElementById("fruit");
     selectedElement.innerText = newArray.sort();
+    selectedElement.innerText = newArray[newArray.length-1]
     console.log(selectedElement);    
 }
 
