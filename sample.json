@@ -1,0 +1,16 @@
+{
+    "petList" :
+    [
+        {"nickname": "Deeves",
+        "fullname": "Diva",
+        "species": "dog",
+        "color": "black"
+        },
+        {"nickname": "Boo",
+        "fullname": "Betty",
+        "species": "dog",
+        "color": "white"
+        }
+
+    ]
+}
