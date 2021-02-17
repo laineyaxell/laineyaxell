@@ -37,3 +37,14 @@ function deleteFruit(){
     var b = document.getElementById("byefruit");
         b.style.display = "none"
 }
+
+function addElements() {
+    var valueArray = ['testing', 'the', 'array'];
+    for (i in valueArray) {
+        var newDiv = document.createElement('div');
+        newDiv.setAttribute('class', 'row');
+        newDiv.setAttribute('id', 'div '+i);
+        document.getElementById('addElements').appendChild(newDiv);
+        newDiv.innerText = valueArray[i]
+    };
+}

@@ -21,7 +21,7 @@
     <title>Document</title>
 </head>
 --->
-<body>
+<body onload="addElements()">
     <link rel="stylesheet" href="css/styles.css">
     <nav class ="navbar navbar-expand-sm bg-transparent navbar-light" id="nav">
         <ul class="nav nav-pills">
@@ -45,6 +45,9 @@
             <li class="nav-item">
                 <a href="api.html" class="nav-link">Map API</a>
             </li>
+            <li class="nav-item">
+                <a href="wiki.html" class="nav-link">Wiki API</a>
+            </li>
             <!----
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="projects.html"
                     role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
@@ -63,7 +66,8 @@
         <a class="nav-link" href="projects.html">Projects</a>
     </nav>
 --->
-    <h1 id="delete">About me!</h1>
+    <h1 class="d-none d-md-block" id="delete">About me!</h1>
+    <!-- <div style="text-indent: 40px" id="addElements"></div> -->
     <p id="abt" class="d-none d-md-block"> I am 3rd year Visual Arts major at the University of Chicago. I am 20 years old and am from Minnesota. Some hobbies of mine include tennis, baking, travelling and wine night.</p>
     <p class="d-none d-md-block">To contact:</p>
     <p class="d-none d-md-block" style="text-indent: 40px">   Email: llaxell@uchicago.edu</p>
