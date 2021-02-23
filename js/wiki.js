@@ -12,12 +12,19 @@ function wikiAPI() {
         var pages = wikiObject.query.pages;
 
         for (var i in pages) {
-            var newDiv = document.createElement('div');
-            newDiv.setAttribute('class', 'row h4');
-            document.getElementById('wiki').appendChild(newDiv);
-            newDiv.innerText = pages[i].title;
+
+            var pageURL = "https://en.wikipedia.org/?curid="
+            var newAnchor = document.createElement("a");
+            newAnchor.href = pageURL+pages[i].pageid;
+            newAnchor.className = 'd-block';
+            newAnchor.innerText = pages[i].title;
+            document.getElementById("wiki").appendChild(newAnchor);
+            //var newDiv = document.createElement('div');
+            //newDiv.setAttribute('class', 'row h4');
+           // document.getElementById('wiki').appendChild(newDiv);
+           // newDiv.innerText = pages[i].title;
             //newDiv.innerText = pages[i].pageid;
-        }
+        };
 
     }
 
