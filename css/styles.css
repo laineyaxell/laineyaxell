@@ -13,3 +13,34 @@ abt {font-size: small;}
     width: 100%;
     /* The width is the width of the web page */
   }
+
+.col-md {
+    padding: 10px;
+}
+
+h4 {color:black; font-size: medium}
+
+.letterthing::first-letter {
+    font-size:xx-large;
+    color:rebeccapurple;
+    font-family: cursive;
+
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }  
+.containerfooter {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+}
