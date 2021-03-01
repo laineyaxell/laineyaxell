@@ -13,6 +13,22 @@ function evalNumber(){
     }
 }
 
+function parseArray() {
+    var array = [];
+    var a = prompt('Enter your favorite city');
+    var b = prompt('Enter your favorite color');
+    var c = prompt('Enter your favorite animal');
+    var d = prompt('Enter your street name');
+    array.push(a);
+    array.push(b);
+    array.push(c);
+    array.push(d);
+    let selectedElement = document.getElementById("arraything");
+    selectedElement.innerText = array.sort();
+    console.log(selectedElement);
+}
+
+
 function eliminate(){
     var a = document.getElementById("delete");
         a.style.display = "none"
